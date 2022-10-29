@@ -1,13 +1,17 @@
 NOTES
-Find out what synaptic package manager is
+I took notes from this video: https://www.youtube.com/watch?v=usZPMKhGMiE
+It used an older version of ubuntu but still worked fine. 
+In the end I just right clicked on the downloaded file and selected "Open with software install"
+Once installed, I searched for it in the "show applications" (bottom right of screen)
+I also deleted the downloaded files to keep things neat and tidy
 
 Installing software on ubuntu
 
 First way is via the terminal
 sudo apt-get install <name of software>
 You can't install this way and also have the synaptic package manager open.
-
 Error: ...is another process using it?
+
 
 Second way is via the synaptic pagage manager. You need to download the software first then open it in spm. I don't however seem to have spm installed. I have Gdebi package installer instead
 
