@@ -1,0 +1,19 @@
+routes to cleaning up diskspace
+
+Found this
+https://www.nucleiotechnologies.com/increasing-disk-space-on-file-system-root-ubuntu-20-04/#:~:text=Proceed%20by%20opening%20Ubuntu%20VM,it%20on%20your%20desired%20amount.
+
+
+Apparantly Need to download this
+sudo apt install virtualbox-qt
+
+I'm not sure if it worked but a search for virtual box in bottom right search found it. 
+
+go to 
+file>virtual media manager
+
+ubuntu.vdi should be showing in the box but it is not. 
+
+So it's probably best to abort for now and perhaps see about removing software you don't use. 
+
+
