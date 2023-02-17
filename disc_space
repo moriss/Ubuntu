@@ -1,7 +1,16 @@
 routes to cleaning up diskspace
 Latest on Top
+
+This is a side task. Keeep going with the file video below.
+This is a tutorial that shows how to clear cache and other files to salvage some disk space.
+https://www.youtube.com/watch?v=rh5KK6t41rw
+I opened disk usage analyzer and deleted the chrome cache, following the instructions on how to delete individual things. I sort of gave up as the only big file seemed to be firefox at 300 plus gb and the tutorial descended into 'delete what you want' which wasnt' very inspiring. 
+
+
+
+
 Friday 17th Feb 2023
-You are still listening to the video below to better understand how file systems work or look for clues that will allow me to progress. 
+You are still listening to the video below (https://www.youtube.com/watch?v=HbgzrKJvDRw&t=514s)to better understand how file systems work or look for clues that will allow me to progress. 
 Deleting files in my download folder : ubuntu, google and xampp. I can't remember the file sizes but I think it was close to 2 GB
 
 I initally deleted xampp and checked I could open it successfully before double checking then deleting the ubuntu iso file.
