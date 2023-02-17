@@ -1,5 +1,16 @@
 routes to cleaning up diskspace
+Latest on Top
+Friday 17th Feb 2023
+You are still listening to the video below to better understand how file systems work or look for clues that will allow me to progress. 
+Deleting files in my download folder : ubuntu, google and xampp. I can't remember the file sizes but I think it was close to 2 GB
 
+I initally deleted xampp and checked I could open it successfully before double checking then deleting the ubuntu iso file.
+
+I deleted them using the sudo rm <filename> command.
+Remember, these are files and NOT directories which would require a different (recursive) command.
+
+
+#####
 You need to learn about files on a laptop in linux to get a better understanding so here we  go:
 
 A bit of history:
