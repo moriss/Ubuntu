@@ -1,5 +1,79 @@
 routes to cleaning up diskspace
 
+You need to learn about files on a laptop in linux to get a better understanding so here we  go:
+
+A bit of history:
+DOS operating system was comand line only.
+The Windows icon is not required on a computer.
+EG you can type win to start the windows os(Operating System).
+
+Windows used letters to asign drives
+a and b were removable disks. c is the hard drive, (internal disk)
+So c became the letter for your internal disk and additional disks were given the next available letters, (d, e and f).
+
+c is still the name of the windows internal hard drive, and the next available letters are given for additional disks such as D, E(for dvd rw) and F for local disk etc,
+
+You could install things in dos wherever you wanted to, windows is installed in its own file called windows.
+
+Later, microsoft changed how it booted to be less dependent then completely independent of dos.
+
+Kernel
+The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system.
+
+STOPPED HERE##
+LINUX IS DIFFERENT
+It doesn't install appliations like windows does.
+
+Program files directory: windows default installation directory for most applications
+
+Linux follows unix traditions using the forward slash instead of the window's backslash.
+Also capitalisation is relevent. File and fiLe are completely different filenames.
+
+AS a side note: MAC evolved from a unix ancestor BSD
+
+
+Linux folders
+bin = binary files. These list terminal commands, ie mkdir, ls cat, cd etc etc
+stopped here
+
+sbin = for system administrator. A standard user doesn't have access to this one. 
+This is for single user mode (for maintenance and repair/upgrades and testing) as opposed to the usual multi user mode.
+Single user mode boots you in as a route user. Networking is usually disabled in this mode for security reasons.
+
+
+boot = a folder you don't want to play around with. It contains everyting your os needs to boot
+
+cdrom = Not on all distros and more of a legacy mounting point for your cd rom.
+
+dev = where your devices live, your hardware.  Applications and drivers access this file.
+
+
+etc = where all system wide configurations are stored. Not for a per-user setting.
+
+
+lib = libraries. Libraries are files that applications can use to perform various functions. The are required in the binaries in bin and sbin.
+
+stopped here.5.29 in
+media and mnt or mount = for other mounted drives(floppy disk/usb stick, external hard drive, network drive or even a second hard drive etc. So this is where to look for  a, b and d drives.
+
+The media folder is relatively new.
+Nowadays, most distros automatically mount devices for you in this directory
+
+Use the mnt directory to mount things manually
+
+Leave the media directory to the os to manage most distros
+
+Side note:
+A file manager creates folder but not files.
+Applications create files.
+
+
+opt = This is the optional folder where manually installed software from vendors resides
+
+
+
+
+
 Found this
 https://www.nucleiotechnologies.com/increasing-disk-space-on-file-system-root-ubuntu-20-04/#:~:text=Proceed%20by%20opening%20Ubuntu%20VM,it%20on%20your%20desired%20amount.
 
