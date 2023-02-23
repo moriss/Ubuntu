@@ -10,10 +10,12 @@ The side task above is ended for now so continue with below video https://www.yo
 
 
 Friday 17th Feb 2023
-You are still listening to the video below (https://www.youtube.com/watch?v=HbgzrKJvDRw&t=514s)to better understand how file systems work or look for clues that will allow me to progress. 
+You are still listening to the video below (https://www.youtube.com/watch?v=HbgzrKJvDRw&t=514s)to better understand how file systems work or look for clues that will allow me to progress. Below (A bit of history:) is the start of extensive notes on this video.
+
+
 Deleting files in my download folder : ubuntu, google and xampp. I can't remember the file sizes but I think it was close to 2 GB
 
-I initally deleted xampp and checked I could open it successfully before double checking then deleting the ubuntu iso file.
+I initally deleted the xampp downloaded files and checked I could open it successfully before double checking then deleting the downloaded ubuntu iso file.
 
 I deleted them using the sudo rm <filename> command.
 Remember, these are files and NOT directories which would require a different (recursive) command.
@@ -33,14 +35,14 @@ So c became the letter for your internal disk and additional disks were given th
 
 c is still the name of the windows internal hard drive, and the next available letters are given for additional disks such as D, E(for dvd rw) and F for local disk etc,
 
-You could install things in dos wherever you wanted to, windows is installed in its own file called windows.
+You could install things in dos wherever you wanted to, windows os is installed in its own file called windows.
 
 Later, microsoft changed how it booted to be less dependent then completely independent of dos.
 
 Kernel
 The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system.
 
-STOPPED HERE##
+
 LINUX IS DIFFERENT
 It doesn't install appliations like windows does.
 
@@ -54,14 +56,14 @@ AS a side note: MAC evolved from a unix ancestor BSD
 
 Linux folders
 bin = binary files. These list terminal commands, ie mkdir, ls cat, cd etc etc
-stopped here
+
 
 sbin = for system administrator. A standard user doesn't have access to this one. 
 This is for single user mode (for maintenance and repair/upgrades and testing) as opposed to the usual multi user mode.
 Single user mode boots you in as a route user. Networking is usually disabled in this mode for security reasons.
 
 
-boot = a folder you don't want to play around with. It contains everyting your os needs to boot
+boot = a folder you don't want to play around with. It contains everything your os needs to boot
 
 cdrom = Not on all distros and more of a legacy mounting point for your cd rom.
 
